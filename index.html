@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Quality</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <h1>Air Quality for different cities</h1>
+    <main class="main">
+      <label for="cities">Choose a city and then press Select:</label>
+      <select name="cities" id="cities">
+        <option value="London">London</option>
+        <option value="Paris">Paris</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Venice">Venice</option>
+        <option value="Tehran">Tehran</option>
+      </select>
+      <button id="btn" type="button">Select</button>
+      <div id="results">
+        <div id="title">
+          <p id="title-name">Name</p>
+          <p id="title-concentration">Concentration</p>
+          <p id="title-value">Value</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
