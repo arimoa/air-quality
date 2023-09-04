@@ -6,7 +6,7 @@ const titleEl = document.getElementById("title");
 let options = {
   method: "GET",
   headers: {
-    "X-Api-Key": "bxvTQNmnQS4GjqVNmrgTbA==M5sWrIJN9zzgsXyS",
+    "X-Api-Key": "7GmHg8iHXFbchRw2RtOL88dzSBp6tSAGA8rXV2lA",
   },
 };
 btnEl.addEventListener("click", getData);
