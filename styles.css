@@ -17,6 +17,7 @@ h1 {
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
 }
 main {
   background-color: #190e5e;
