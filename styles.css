@@ -21,7 +21,7 @@ h1 {
 }
 main {
   background-color: #190e5e;
-  width: 30%;
+  width: 480px;
   min-width: 370px;
   max-width: 90%;
   padding: 10px 15px;
@@ -41,11 +41,17 @@ label {
 }
 select {
   width: 100%;
-  height: 25px;
+  height: 30px;
   line-height: 25px;
   padding: 0 10px;
   border-radius: 5px;
   outline: none;
+}
+select option {
+  background-color: #f0932b;
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 500;
 }
 button {
   font-size: 1.3rem;
@@ -64,8 +70,8 @@ button:hover {
   color: black;
 }
 #title {
-  font-weight: 900;
-  text-decoration: underline;
+  font-weight: 800;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,4 +91,9 @@ button:hover {
 .parameter > * {
   width: 30%;
   text-align: center;
+}
+@media (max-width:481px) {
+  main {
+    width: 95%;
+  }
 }
